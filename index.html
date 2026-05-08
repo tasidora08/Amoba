@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Amőba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label for="meret">Méret</label>
+    <input type="range" name="meret" id="meret" min="3" max="9" value="5"> <span id="szam" onchange="Ertek()">5</span>
+    <br>
+    <label for="mi">X</label>
+    <input type="radio" id="mi" value="X" name="mi">
+    <label for="mi">O</label>
+    <input type="radio" id="mi" value="O" name="mi">
+    <br>
+    <input type="button" value="Kezdés" onclick="Feltolt()">
+    <br><br>
+    <div id="container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
