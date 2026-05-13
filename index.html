@@ -7,12 +7,12 @@
 </head>
 <body>
     <label for="meret">Méret</label>
-    <input type="range" name="meret" id="meret" min="3" max="9" value="5"> <span id="szam" onchange="Ertek()">5</span>
+    <input type="range" name="meret" id="meret" min="3" max="9" value="5" oninput="Ertek()"> <span id="szam">5</span>
     <br>
     <label for="mi">X</label>
-    <input type="radio" id="mi" value="X" name="mi">
+    <input type="radio" id="mi" value="X" name="jel">
     <label for="mi">O</label>
-    <input type="radio" id="mi" value="O" name="mi">
+    <input type="radio" id="mi" value="O" name="jel">
     <br>
     <input type="button" value="Kezdés" onclick="Feltolt()">
     <br><br>
